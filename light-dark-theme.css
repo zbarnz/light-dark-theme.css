@@ -1,0 +1,27 @@
+ :root {
+    --text-primary: rgba(0, 0, 0, 0.87);
+    --text-secondary: rgba(0, 0, 0, 0.6);
+    --text-disabled: rgba(0, 0, 0, 0.38);
+    --action-active: rgba(0, 0, 0, 0.54);
+    --action-hover: rgba(0, 0, 0, 0.04);
+    --action-selected: rgba(0, 0, 0, 0.08);
+    --action-disabled: rgba(0, 0, 0, 0.26);
+    --action-disabledBackground: rgba(0, 0, 0, 0.12);
+    --background-default: #fff;
+    --divider: rgba(0, 0, 0, 0.12);
+  }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text-primary: #fff;
+    --text-secondary: rgba(255, 255, 255, 0.7);
+    --text-disabled: rgba(255, 255, 255, 0.5);
+    --action-active: #fff;
+    --action-hover: rgba(255, 255, 255, 0.08);
+    --action-selected: rgba(255, 255, 255, 0.16);
+    --action-disabled: rgba(255, 255, 255, 0.3);
+    --action-disabledBackground: rgba(255, 255, 255, 0.12);
+    --background-default: #121212;
+    --divider: rgba(255, 255, 255, 0.12);
+  }
+}
